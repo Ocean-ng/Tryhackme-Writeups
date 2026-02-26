@@ -26,7 +26,7 @@ rồi lại up dog2.png
 
 <img width="2558" height="1359" alt="image" src="https://github.com/user-attachments/assets/97619449-7a9b-4a6a-aa87-9cc4ee3ef9e3" />
 
-vậy là 2 hình đã match nhau cùng 1 mã MD5, và dĩ diên là flag hiện lên rồi. Qua đây MD5 đã bị một lỗ hổng là mã băm giống với mã băm cơ sở dữ liệu của hệ thống thì sẽ được cho qua, hacker mượn mã này để chèn mã độc mà hệ thống lỗi thời không hay biết
+vậy là 2 hình đã match nhau cùng 1 mã MD5, và dĩ diên là flag hiện lên rồi. Qua đây MD5 đã bị một lỗ hổng là mã băm tập tin giống với mã băm cơ sở dữ liệu của hệ thống thì sẽ được cho qua, hacker mượn lỗi này để chèn mã độc mà hệ thống lỗi thời không hay biết
 
 
 
