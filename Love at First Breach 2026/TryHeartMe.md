@@ -13,8 +13,6 @@ mở f12 lên, nhận diện được api là chuỗi jwt gồm 3 phần cắt n
 
 mình lên trang jwt.io để giải mã chuỗi này và có được thông tin quan trọng
 
-<img width="2558" height="1359" alt="image" src="https://github.com/user-attachments/assets/157dd17d-0401-4c45-b975-faf8bbba0d4a" />
-
 để í role đang là user, mình chỉnh lại thành admin để leo thang đặc quyền
 
 <img width="2558" height="1359" alt="image" src="https://github.com/user-attachments/assets/beaaa152-3d24-4a98-a822-938fbd62730c" />
