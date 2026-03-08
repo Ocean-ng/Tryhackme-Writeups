@@ -21,7 +21,7 @@ we get the email and password to login
 
 our purpose now is how to get into admin panel? press f12 again and check storage, there is a isVip that value set "false", lets change to "true" value
 
-<img width="2558" height="1359" alt="image" src="https://github.com/user-attachments/assets/b7bf5730-e40e-4442-8e0e-c641d60f2d51" 
+<img width="2558" height="1359" alt="image" src="https://github.com/user-attachments/assets/b7bf5730-e40e-4442-8e0e-c641d60f2d51" />
 
 <img width="2558" height="1359" alt="image" src="https://github.com/user-attachments/assets/304ade49-1575-4429-bbce-208fbb292246" />
 
