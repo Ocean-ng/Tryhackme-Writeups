@@ -43,18 +43,18 @@ Vì máy tính lưu trữ thông số địa chỉ theo kiểu "viết ngược 
 
     - Phân vùng 1 sẽ chiếm 16 bytes đầu tiên (từ 01BE đến 01CD).
 
-    - Nhìn vào hình ảnh, chúng ta lấy 2 ô cuối của dòng `000001B0` và 14 ô đầu của dòng `000001C0`, ta thu được chuỗi 16 bytes sau:
-    `80 20 21 00 07 FE FF FF 00 08 00 00 00 F0 BF 03`
+    - Nhìn vào hình ảnh, chúng ta lấy 2 ô cuối của dòng 000001B0 và 14 ô đầu của dòng 000001C0, ta thu được chuỗi 16 bytes sau:
+    80 20 21 00 07 FE FF FF 00 08 00 00 00 F0 BF 03
 
 ## Bước 2: Trích xuất trường "Number of Sectors" (Số lượng Sector)
 
     - Thông số về tổng số sector nằm ở 4 bytes cuối cùng của chuỗi trên.
 
-    - Lấy 4 bytes đó ra, ta có: `00 F0 BF 03`
+    - Lấy 4 bytes đó ra, ta có: 00 F0 BF 03
 
 ## Bước 3: Thực hiện phép tính (Chuẩn Little-Endian)
 
-    - Đảo ngược mã: `00 F0 BF 03` trở thành `03 BF F0 00`.
+    - Đảo ngược mã: 00 F0 BF 03 trở thành 03 BF F0 00.
 
     - Đổi sang hệ Thập phân (Decimal): Giá trị Hex 03BFF000 khi quy đổi ra hệ thập phân là 62,910,464 (Sectors).
 
